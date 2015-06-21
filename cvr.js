@@ -53,7 +53,7 @@ angular.module('angular-cvr-validator', [])
                             var data = response.data;
                             var hasError = data.hasOwnProperty('error');
 
-                            ctrl.$warning = !hasError;
+                            ctrl.$warning = hasError;
                             ctrl.$cvrData = hasError ? null : data;
                         }, function(){
                             ctrl.$warning = true;
