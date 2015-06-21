@@ -69,8 +69,8 @@
 
             <div class="form-error" ng-show="form.cvr.$dirty && form.cvr.$invalid">This is not a valid CVR number</div>
             <div class="form-error warning" ng-show="form.cvr.$warning">CVR number seems valid but we couldn't find in the public registry</div>
-            <div class="forme-error warning" ng-if="form.cvr.$cvrData">
-                <div>This CVR belongs to: </div>
+            <div class="form-error warning" ng-if="form.cvr.$cvrData">
+                <div>This CVR belongs to:</div>
                 <ul>
                     <li>{{ form.cvr.$cvrData.name }}</li>
                     <li>{{ form.cvr.$cvrData.address }}</li>
