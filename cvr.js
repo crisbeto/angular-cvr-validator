@@ -61,6 +61,7 @@ angular.module('angular-cvr-validator', [])
                         });
                     }else{
                         ctrl.$warning = false;
+                        ctrl.$cvrData = null;
                     }
 
                     return isValid || undefined;
