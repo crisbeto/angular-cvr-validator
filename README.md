@@ -7,7 +7,11 @@ Checks client-side with a modulus check and in the public registry.
 
 ## Install
 
-Include Angular and [cvr.min.js](https://raw.githubusercontent.com/crisbeto/angular-cvr-validator/master/cvr.min.js) or [cvr.js](https://raw.githubusercontent.com/crisbeto/angular-cvr-validator/master/cvr.js) in your page. You can use bower, or a script-tag:
+Include Angular and [cvr.min.js](https://raw.githubusercontent.com/crisbeto/angular-cvr-validator/master/cvr.min.js) or [cvr.js](https://raw.githubusercontent.com/crisbeto/angular-cvr-validator/master/cvr.js) in your page. You can use npm, bower, or a script-tag:
+
+`npm install angular-cvr-validator`
+
+or
 
 `bower install angular-cvr-validator`
 
